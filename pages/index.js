@@ -16,12 +16,13 @@ import {
   faCircleCheck,
 } from '@fortawesome/free-solid-svg-icons'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Navbar />
-      <Carousel autoPlay="true" infiniteLoop="true" style={{ height: '50%' }}>
+      <Carousel autoPlay="True" infiniteLoop="True" style={{ height: '50%' }}>
         <div>
           <img src="/one.png" alt="image1" />
         </div>
@@ -106,6 +107,7 @@ export default function Home() {
           </span>
         </div>
       </div>
+      <Footer />
       {/* <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} /> */}
     </div>
   )
