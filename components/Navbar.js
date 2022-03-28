@@ -1,5 +1,5 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -11,8 +11,8 @@ const Navbar = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               stroke-width="2"
               className="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
               viewBox="0 0 24 24"
@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
       </header>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
