@@ -26,7 +26,7 @@ const Navbar = () => {
             <a className="mr-7 ml-5 hover:text-white">Home</a>
             <a className="mr-7 ml-5 hover:text-white">About Us</a>
             <a className="mr-7 ml-5 hover:text-white">Register</a>
-            <a className="mr-7 ml-5 hover:text-white">Contact Us</a>
+            <a className="mr-7 ml-5 hover:text-white">Contact us</a>
             <a className="mr-7 ml-5 hover:text-white">Donations</a>
             <a className="mr-7 ml-5 hover:text-white">Schemes</a>
             <a className="mr-7 ml-5 hover:text-white">Services</a>

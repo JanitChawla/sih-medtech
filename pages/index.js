@@ -42,8 +42,8 @@ export default function Home() {
           <img src="/one.png" alt="image1" />
         </div>
       </Carousel>
-      <div className="text-center">
-        <h1>Features</h1>
+      <div className="mt-20 text-center">
+        <h1 className="text-4xl">Features</h1>
         <div>
           Introduce the amazing range of ground-breaking features
           <br /> that your new release will include.
